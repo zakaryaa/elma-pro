@@ -1,12 +1,5 @@
 // generated on 2019-04-16 using generator-webapp 4.0.0-5
-const {
-  src,
-  dest,
-  watch,
-  series,
-  parallel,
-  lastRun
-} = require('gulp');
+const { src, dest, watch, series, parallel, lastRun } = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
@@ -15,9 +8,7 @@ const browserSync = require('browser-sync');
 const del = require('del');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
-const {
-  argv
-} = require('yargs');
+const { argv } = require('yargs');
 
 const $ = gulpLoadPlugins();
 const server = browserSync.create();
@@ -29,22 +20,20 @@ const isTest = process.env.NODE_ENV === 'test';
 const isDev = !isProd && !isTest;
 
 function styles() {
-  return src('app/**/*.css')
+  return src('app/styles/*.scss')
     .pipe($.plumber())
-    //.pipe($.if(!isProd, $.sourcemaps.init()))
-    //.pipe($.sass.sync({
-    // outputStyle: 'expanded',
-    // precision: 10,
-    // includePaths: ['.']
-    //}).on('error', $.sass.logError))
-    //.pipe($.postcss([
-    // autoprefixer()
-    //]))
+    .pipe($.if(!isProd, $.sourcemaps.init()))
+    .pipe($.sass.sync({
+      outputStyle: 'expanded',
+      precision: 10,
+      includePaths: ['.']
+    }).on('error', $.sass.logError))
+    .pipe($.postcss([
+      autoprefixer()
+    ]))
     .pipe($.if(!isProd, $.sourcemaps.write()))
     .pipe(dest('.tmp/styles'))
-    .pipe(server.reload({
-      stream: true
-    }));
+    .pipe(server.reload({stream: true}));
 };
 
 function scripts() {
@@ -54,9 +43,7 @@ function scripts() {
     .pipe($.babel())
     .pipe($.if(!isProd, $.sourcemaps.write('.')))
     .pipe(dest('.tmp/scripts'))
-    .pipe(server.reload({
-      stream: true
-    }));
+    .pipe(server.reload({stream: true}));
 };
 
 async function modernizr() {
@@ -90,22 +77,15 @@ async function modernizr() {
 
 const lintBase = files => {
   return src(files)
-    .pipe($.eslint({
-      fix: true
-    }))
-    .pipe(server.reload({
-      stream: true,
-      once: true
-    }))
+    .pipe($.eslint({ fix: true }))
+    .pipe(server.reload({stream: true, once: true}))
     .pipe($.eslint.format())
     .pipe($.if(!server.active, $.eslint.failAfterError()));
 }
-
 function lint() {
   return lintBase('app/scripts/**/*.js')
     .pipe(dest('app/scripts'));
 };
-
 function lintTest() {
   return lintBase('test/spec/**/*.js')
     .pipe(dest('test/spec'));
@@ -113,26 +93,13 @@ function lintTest() {
 
 function html() {
   return src('app/*.html')
-    .pipe($.useref({
-      searchPath: ['.tmp', 'app', '.']
-    }))
-    .pipe($.if(/\.js$/, $.uglify({
-      compress: {
-        drop_console: true
-      }
-    })))
-    .pipe($.if(/\.css$/, $.postcss([cssnano({
-      safe: true,
-      autoprefixer: false
-    })])))
+    .pipe($.useref({searchPath: ['.tmp', 'app', '.']}))
+    .pipe($.if(/\.js$/, $.uglify({compress: {drop_console: true}})))
+    .pipe($.if(/\.css$/, $.postcss([cssnano({safe: true, autoprefixer: false})])))
     .pipe($.if(/\.html$/, $.htmlmin({
       collapseWhitespace: true,
       minifyCSS: true,
-      minifyJS: {
-        compress: {
-          drop_console: true
-        }
-      },
+      minifyJS: {compress: {drop_console: true}},
       processConditionalComments: true,
       removeComments: true,
       removeEmptyAttributes: true,
@@ -143,11 +110,9 @@ function html() {
 }
 
 function images() {
-  return src('app/img/**/*', {
-      since: lastRun(images)
-    })
+  return src('app/images/**/*', { since: lastRun(images) })
     .pipe($.imagemin())
-    .pipe(dest('dist/img'));
+    .pipe(dest('dist/images'));
 };
 
 function fonts() {
@@ -170,10 +135,7 @@ function clean() {
 
 function measureSize() {
   return src('dist/**/*')
-    .pipe($.size({
-      title: 'build',
-      gzip: true
-    }));
+    .pipe($.size({title: 'build', gzip: true}));
 }
 
 const build = series(
@@ -202,11 +164,11 @@ function startAppServer() {
 
   watch([
     'app/*.html',
-    'app/img/**/*',
+    'app/images/**/*',
     '.tmp/fonts/**/*'
   ]).on('change', server.reload);
 
-  watch('app/**/*.css', styles);
+  watch('app/styles/**/*.scss', styles);
   watch('app/scripts/**/*.js', scripts);
   watch('modernizr.json', modernizr);
   watch('app/fonts/**/*', fonts);
