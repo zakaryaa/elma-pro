@@ -110,9 +110,9 @@ function html() {
 }
 
 function images() {
-  return src('app/images/**/*', { since: lastRun(images) })
+  return src('app/assets/img/**/*', { since: lastRun(images) })
     .pipe($.imagemin())
-    .pipe(dest('dist/images'));
+    .pipe(dest('dist/assets/img/'));
 };
 
 function fonts() {
@@ -164,7 +164,7 @@ function startAppServer() {
 
   watch([
     'app/*.html',
-    'app/images/**/*',
+    'app/assets/img/**/*',
     '.tmp/fonts/**/*'
   ]).on('change', server.reload);
 
