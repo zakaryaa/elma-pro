@@ -40,7 +40,7 @@ body {
     height: 25px;
     position: absolute;
     margin: 0;
-    left: 5%;
+    left: 10%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -50,7 +50,7 @@ body {
     height: 36px;
     position: absolute;
     margin: 0;
-    left: 95%;
+    left: 90%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -62,7 +62,7 @@ body {
       width: 120px;
       position: absolute;
       margin: 0;
-      right: 10%;
+      right: 15%;
       border-radius: 18px;
       border-style: solid;
       border-width: 1px;
@@ -99,20 +99,22 @@ body {
     height: auto;
     background-color: rgba(255, 255, 255, 0);
     position: relative;
-    left: 5%;
+    left: 10%;
     margin: 0;
-    width: 380px;
+    width: 400px;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Heebo", Helvetica, Arial, serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 20px;
     color: rgba(215, 215, 215, 1);
     text-align: left;
-    letter-spacing: 0.08px;
     line-height: 29px;
+    font-family: Heebo-Light;
+    font-size: 20px;
+    color: #f4f5f9;
+    letter-spacing: 0.08px;
+
     @media screen and (max-width: 600px) {
       width: 45%;
     }
@@ -124,7 +126,7 @@ body {
     width: auto;
     position: absolute;
     margin: 0;
-    left: 5%;
+    left: 10%;
     @media screen and (max-width: 600px) {
       width: 22%;
       top: 400px;
@@ -141,6 +143,11 @@ body {
     text-align: left;
     letter-spacing: -1.73px;
     line-height: 67px;
+
+    font-family: PlayfairDisplay-Bold;
+    font-size: 56px;
+    color: #ffffff;
+    letter-spacing: -1.73px;
   }
   .cta {
     @media screen and (max-width: 600px) {
@@ -153,7 +160,7 @@ body {
     width: 30%;
     position: absolute;
     margin: 0;
-    left: 5%;
+    left: 10%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -181,6 +188,7 @@ body {
           left: 10%;
           font-size: 16px;
         }
+
         background-color: rgba(255, 255, 255, 0);
         top: 14px;
         height: auto;
@@ -197,6 +205,12 @@ body {
         text-align: center;
         letter-spacing: 0.07px;
         line-height: 21px;
+
+        font-family: Heebo-Medium;
+        font-size: 18px;
+        color: #ffffff;
+        letter-spacing: 0.07px;
+        text-align: center;
       }
     }
   }
@@ -211,7 +225,7 @@ body {
     top: 794px;
     height: auto;
     width: 100%;
-    left: 5%;
+    left: 10%;
     position: absolute;
     margin: 0;
     -ms-transform: rotate(0deg);
@@ -222,6 +236,11 @@ body {
     color: rgba(29, 30, 31, 1);
     text-align: left;
     line-height: 38px;
+
+    font-family: PlayfairDisplay-Bold;
+    font-size: 32px;
+    color: #1d1e1f;
+    letter-spacing: 0;
   }
   .elmadealestunepla {
     @media screen and (max-width: 600px) {
@@ -230,19 +249,22 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 901px;
     height: auto;
-    width: 40%;
-    left: 5%;
+    width: 28%;
+    left: 10%;
     position: absolute;
     margin: 0;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 20px;
     color: rgba(51, 51, 51, 1);
     text-align: left;
     letter-spacing: 0.08px;
     line-height: 24px;
+    font-family: Heebo-Light;
+    font-size: 20px;
+    color: #343434;
+    letter-spacing: 0.08px;
   }
   .man_board {
     @media screen and (max-width: 600px) {
@@ -251,12 +273,12 @@ body {
       left: 40%;
     }
     background-color: rgba(255, 255, 255, 0);
-    top: 902px;
+    top: 852px;
     height: 291px;
     width: 30%;
     position: absolute;
     margin: 0;
-    left: 65%;
+    left: 55%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -287,10 +309,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 1392px;
     height: 212px;
-    width: 30%;
+    width: 23%;
     position: absolute;
     margin: 0;
-    right: 60%;
+    right: 53%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -307,17 +329,21 @@ body {
     width: 100%;
     position: absolute;
     margin: 0;
-    right: 25%;
+    right: 15%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Playfair Display", Helvetica, Arial, serif;
     font-weight: 700;
     font-size: 20px;
     color: rgba(51, 51, 51, 1);
     text-align: center;
     letter-spacing: 0.08px;
     line-height: 24px;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 20px;
+    color: #343434;
+    letter-spacing: 0.08px;
+    text-align: center;
   }
   .accedez_a_desmilliers {
     @media screen and (max-width: 600px) {
@@ -330,17 +356,21 @@ body {
     height: auto;
     position: absolute;
     margin: 0;
-    width: 20%;
-    left: 15%;
+    width: 30%;
+    right: 50%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 20px;
     color: rgba(51, 51, 51, 1);
     text-align: center;
     letter-spacing: 0.08px;
     line-height: 24px;
+    font-family: Heebo-Light;
+    font-size: 20px;
+    color: #343434;
+    letter-spacing: 0.08px;
+    text-align: center;
   }
   .calendar {
     @media screen and (max-width: 600px) {
@@ -351,10 +381,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 1677px;
     height: 190px;
-    width: 20%;
+    width: 18%;
     position: absolute;
     margin: 0;
-    left: 69%;
+    left: 59%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -370,17 +400,21 @@ body {
     width: 100%;
     position: absolute;
     margin: 0;
-    left: 30%;
+    left: 18%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Playfair Display", Helvetica, Arial, serif;
     font-size: 20px;
     color: rgba(51, 51, 51, 1);
     font-weight: 700;
     text-align: center;
     letter-spacing: 0.08px;
     line-height: 24px;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 20px;
+    color: #343434;
+    letter-spacing: 0.08px;
+    text-align: center;
   }
   .reservations_text {
     @media screen and (max-width: 600px) {
@@ -391,19 +425,24 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 1942px;
     height: auto;
-    width: 20%;
+    width: 29%;
     position: absolute;
     margin: 0;
-    right: 9%;
+    right: 18%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 20px;
     color: rgba(51, 51, 51, 1);
     text-align: center;
     letter-spacing: 0.08px;
     line-height: 24px;
+
+    font-family: Heebo-Light;
+    font-size: 20px;
+    color: #343434;
+    letter-spacing: 0.08px;
+    text-align: center;
   }
   .augmentez_revenus {
     @media screen and (max-width: 600px) {
@@ -414,10 +453,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 1926px;
     height: 211px;
-    width: 30%;
+    width: 23%;
     position: absolute;
     margin: 0;
-    right: 60%;
+    right: 53%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -434,17 +473,22 @@ body {
     width: 100%;
     position: absolute;
     margin: 0;
-    right: 25%;
+    right: 15%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Playfair Display", Helvetica, Arial, serif;
     font-weight: 700;
     font-size: 20px;
     color: rgba(51, 51, 51, 1);
     text-align: center;
     letter-spacing: 0.08px;
     line-height: 24px;
+
+    font-family: PlayfairDisplay-Bold;
+    font-size: 20px;
+    color: #343434;
+    letter-spacing: 0.08px;
+    text-align: center;
   }
   .dev_visibilite {
     @media screen and (max-width: 600px) {
@@ -457,8 +501,8 @@ body {
     height: auto;
     position: absolute;
     margin: 0;
-    width: 20%;
-    left: 15%;
+    width: 30%;
+    right: 50%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -468,6 +512,11 @@ body {
     text-align: center;
     letter-spacing: 0.08px;
     line-height: 24px;
+    font-family: Heebo-Light;
+    font-size: 20px;
+    color: #343434;
+    letter-spacing: 0.08px;
+    text-align: center;
   }
   .op_quotid {
     @media screen and (max-width: 600px) {
@@ -476,12 +525,12 @@ body {
       width: 50%;
     }
     background-color: rgba(255, 255, 255, 0);
-    top: 2157px;
+    top: 2177px;
     height: 209px;
-    width: 30%;
+    width: 18%;
     position: absolute;
     margin: 0;
-    left: 69%;
+    left: 59%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -499,17 +548,21 @@ body {
     width: 100%;
     position: absolute;
     margin: 0;
-    left: 30%;
+    left: 18%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Playfair Display", Helvetica, Arial, serif;
     font-weight: 700;
     font-size: 20px;
     color: rgba(51, 51, 51, 1);
     text-align: center;
     letter-spacing: 0.08px;
     line-height: 24px;
+    font-family: PlayfairDisplay-Bold;
+    font-size: 20px;
+    color: #343434;
+    letter-spacing: 0.08px;
+    text-align: center;
   }
   .reservations_text_copy {
     @media screen and (max-width: 600px) {
@@ -520,19 +573,37 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 2451px;
     height: auto;
-    width: 20%;
+    width: 29%;
     position: absolute;
     margin: 0;
-    right: 9%;
+    right: 18%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 20px;
     color: rgba(51, 51, 51, 1);
     text-align: center;
     letter-spacing: 0.08px;
     line-height: 24px;
+
+    font-family: Heebo-Light;
+    font-size: 20px;
+    color: #343434;
+    letter-spacing: 0.08px;
+    text-align: center;
+  }
+  .points {
+    background-color: rgba(255, 255, 255, 0);
+    top: 2370px;
+    height: 265px;
+    width: 50%;
+    position: absolute;
+    margin: 0;
+    left: 15%;
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 0.5;
   }
 }
 .black_section {
@@ -582,11 +653,15 @@ body {
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  font-family: "Helvetica", Helvetica, Arial, serif;
   font-size: 32px;
   color: rgba(240, 241, 246, 1);
   text-align: center;
   line-height: 38px;
+  font-family: PlayfairDisplay-Bold;
+  font-size: 32px;
+  color: #f0f1f6;
+  letter-spacing: 0;
+  text-align: center;
 }
 .elmabook_text {
   @media screen and (max-width: 600px) {
@@ -599,7 +674,7 @@ body {
       line-height: 25px;
     }
     width: 50%;
-    font-family: "Heebo", Helvetica, Arial, serif;
+    font-family: Heebo-Bold;
     font-weight: 700;
     font-style: normal;
     font-size: 20px;
@@ -620,6 +695,7 @@ body {
     font-weight: 300;
     font-style: normal;
   }
+
   background-color: rgba(255, 255, 255, 0);
   top: 147px;
   height: auto;
@@ -631,12 +707,17 @@ body {
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  font-family: "Helvetica", Helvetica, Arial, serif;
   font-size: 20px;
   color: rgba(240, 241, 246, 1);
   text-align: center;
   letter-spacing: 0.08px;
   line-height: 24px;
+
+  font-family: Heebo-Bold;
+  font-size: 20px;
+  color: #f0f1f6;
+  letter-spacing: 0.08px;
+  text-align: center;
 }
 .iphonemockup {
   @media screen and (max-width: 600px) {
@@ -759,11 +840,17 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 12px;
     color: rgba(178, 178, 178, 1);
     text-align: center;
     letter-spacing: 0.3px;
+    line-height: 17px;
+
+    font-family: Lato-Regular;
+    font-size: 12px;
+    color: #b2b2b2;
+    letter-spacing: 0.3px;
+    text-align: center;
     line-height: 17px;
   }
   .carriefuller {
@@ -777,10 +864,15 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 10px;
     color: rgba(81, 83, 86, 1);
     text-align: left;
+    letter-spacing: 0.3px;
+    line-height: 14px;
+
+    font-family: Lato-Bold;
+    font-size: 10px;
+    color: #515356;
     letter-spacing: 0.3px;
     line-height: 14px;
   }
@@ -807,10 +899,15 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 14px;
     color: rgba(178, 178, 178, 1);
     text-align: left;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #b2b2b2;
     letter-spacing: 0.4px;
     line-height: 20px;
   }
@@ -843,11 +940,17 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 12px;
     color: rgba(178, 178, 178, 1);
     text-align: center;
     letter-spacing: 0.3px;
+    line-height: 17px;
+
+    font-family: Lato-Regular;
+    font-size: 12px;
+    color: #b2b2b2;
+    letter-spacing: 0.3px;
+    text-align: center;
     line-height: 17px;
   }
   .gregoryrichardson {
@@ -861,10 +964,15 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 10px;
     color: rgba(81, 83, 86, 1);
     text-align: left;
+    letter-spacing: 0.3px;
+    line-height: 14px;
+
+    font-family: Lato-Bold;
+    font-size: 10px;
+    color: #515356;
     letter-spacing: 0.3px;
     line-height: 14px;
   }
@@ -891,10 +999,15 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 14px;
     color: rgba(178, 178, 178, 1);
     text-align: left;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #b2b2b2;
     letter-spacing: 0.4px;
     line-height: 20px;
   }
@@ -922,11 +1035,17 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 12px;
     color: rgba(178, 178, 178, 1);
     text-align: center;
     letter-spacing: 0.3px;
+    line-height: 17px;
+
+    font-family: Lato-Regular;
+    font-size: 12px;
+    color: #b2b2b2;
+    letter-spacing: 0.3px;
+    text-align: center;
     line-height: 17px;
   }
   .ettasimmons {
@@ -940,10 +1059,15 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 10px;
     color: rgba(81, 83, 86, 1);
     text-align: left;
+    letter-spacing: 0.3px;
+    line-height: 14px;
+
+    font-family: Lato-Bold;
+    font-size: 10px;
+    color: #515356;
     letter-spacing: 0.3px;
     line-height: 14px;
   }
@@ -970,10 +1094,15 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 14px;
     color: rgba(178, 178, 178, 1);
     text-align: left;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+
+    font-family: Lato-Regular;
+    font-size: 14px;
+    color: #b2b2b2;
     letter-spacing: 0.4px;
     line-height: 20px;
   }
@@ -1000,13 +1129,18 @@ body {
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
-    font-family: "Playfair Display", Helvetica, Arial, serif;
     font-weight: 700;
     font-style: normal;
     font-size: 42px;
     color: rgba(244, 245, 249, 1);
     text-align: center;
     line-height: 32px;
+
+    font-family: PlayfairDisplay-Bold;
+    font-size: 42px;
+    color: #f4f5f9;
+    letter-spacing: 0;
+    text-align: center;
     .span1 {
       line-height: 56px;
     }
@@ -1019,14 +1153,13 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 225px;
     height: auto;
-    width: 50%;
+    width: 60%;
     position: absolute;
     margin: 0;
-    left: 28%;
+    left: 20%;
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
-    font-family: "Heebo", Helvetica, Arial, serif;
     font-weight: 300;
     font-style: normal;
     font-size: 20px;
@@ -1034,6 +1167,13 @@ body {
     text-align: center;
     letter-spacing: 0.08px;
     line-height: 29px;
+
+
+    font-family: Heebo-Light;
+font-size: 20px;
+color: #F0F1F6;
+letter-spacing: 0.08px;
+text-align: center;
   }
   .form {
     ::placeholder {
@@ -1099,6 +1239,7 @@ body {
       height: 36px;
       width: 100%;
       position: absolute;
+      border-color: transparent;
       margin: 0;
       left: 52%;
       border-radius: 18px;
@@ -1110,13 +1251,14 @@ body {
         font-size: 10px;
         color: #ffffff;
         letter-spacing: 2px;
+
       }
     }
   }
 }
 .section_footer {
   background-color: rgba(255, 255, 255, 1);
-  top: 4350px;
+  top: 4340px;
   height: 189px;
   width: 100%;
   position: absolute;
@@ -1127,23 +1269,23 @@ body {
   transform: rotate(0deg);
   .logo_footer {
     background-color: rgba(255, 255, 255, 0);
-    top: 80px;
+    top: 40px;
     height: 25px;
     position: absolute;
     margin: 0;
-    left: 3%;
+    left: 10%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   .product {
     background-color: rgba(255, 255, 255, 0);
-    top: 65px;
+    top: 40px;
     height: auto;
     width: auto;
     position: absolute;
     margin: 0;
-    left: 20%;
+    left: 30%;
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
@@ -1158,12 +1300,12 @@ body {
   }
   .quisommesnous {
     background-color: rgba(255, 255, 255, 0);
-    top: 95px;
+    top: 65px;
     height: auto;
     width: auto;
     position: absolute;
     margin: 0;
-    left: 20%;
+    left: 30%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -1176,12 +1318,12 @@ body {
   }
   .contact {
     background-color: rgba(255, 255, 255, 0);
-    top: 65px;
+    top: 40px;
     height: auto;
     width: auto;
     position: absolute;
     margin: 0;
-    left: 40%;
+    left: 43%;
     -ms-transform: rotate(0deg); /* IE 9 */
     -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
     transform: rotate(0deg);
@@ -1196,12 +1338,12 @@ body {
   }
   .contacteznousfaq {
     background-color: rgba(255, 255, 255, 0);
-    top: 95px;
+    top: 65px;
     height: auto;
     width: auto;
     position: absolute;
     margin: 0;
-    left: 40%;
+    left: 43%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -1214,12 +1356,12 @@ body {
   }
   .followus {
     background-color: rgba(255, 255, 255, 0);
-    top: 65px;
+    top: 40px;
     height: auto;
     width: auto;
     position: absolute;
     margin: 0;
-    left: 60%;
+    left: 56%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -1235,22 +1377,22 @@ body {
   .icons {
     .facebookicon {
       background-color: rgba(255, 255, 255, 0);
-      top: 95px;
+      top: 65px;
       height: 24px;
       width: 2%;
-      left: 58%;
+      left: 54%;
       position: absolute;
-      margin-left:15px;
+      margin-left: 15px;
       -ms-transform: rotate(0deg);
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
     }
     .twittericon {
       background-color: rgba(255, 255, 255, 0);
-      top: 95px;
+      top: 65px;
       height: 24px;
       width: 2%;
-      left: 60.5%;
+      left: 57%;
       position: absolute;
       margin-left: 15px;
       -ms-transform: rotate(0deg);
@@ -1259,10 +1401,10 @@ body {
     }
     .dribbbleicon {
       background-color: rgba(255, 255, 255, 0);
-      top: 95px;
+      top: 65px;
       height: 24px;
       width: 2%;
-      left: 63%;
+      left: 60%;
       position: absolute;
       margin-left: 15px;
       -ms-transform: rotate(0deg);
@@ -1272,12 +1414,12 @@ body {
   }
   .subscribe {
     background-color: rgba(255, 255, 255, 0);
-    top: 65px;
+    top: 40px;
     height: auto;
     width: auto;
     position: absolute;
     margin: 0;
-    left: 75%;
+    left: 70%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -1292,13 +1434,13 @@ body {
   }
   .input_email {
     background-color: rgba(255, 255, 255, 0);
-    top: 95px;
+    top: 65px;
     height: 36px;
     box-sizing: border-box;
     width: 15%;
     position: absolute;
     margin: 0;
-    left: 75%;
+    left: 70%;
     border-radius: 18px;
     border-style: solid;
     border-width: 1px;
@@ -1316,12 +1458,12 @@ body {
   }
   .rightarrow {
     background-color: rgba(255, 255, 255, 0);
-    top: 109px;
+    top: 80px;
     height: 12px;
     width: 8px;
     position: absolute;
     margin: 0;
-    left: 88%;
+    left: 84%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
