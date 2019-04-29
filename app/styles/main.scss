@@ -253,10 +253,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 902px;
     height: 291px;
-    width: 100%;
+    width: 30%;
     position: absolute;
     margin: 0;
-    left: 30%;
+    left: 65%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -287,10 +287,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 1392px;
     height: 212px;
-    width: 100%;
+    width: 30%;
     position: absolute;
     margin: 0;
-    right: 25%;
+    right: 60%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -351,10 +351,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 1677px;
     height: 190px;
-    width: 100%;
+    width: 20%;
     position: absolute;
     margin: 0;
-    left: 30%;
+    left: 69%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -414,10 +414,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 1926px;
     height: 211px;
-    width: 100%;
+    width: 30%;
     position: absolute;
     margin: 0;
-    right: 25%;
+    right: 60%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -478,10 +478,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 2157px;
     height: 209px;
-    width: 100%;
+    width: 30%;
     position: absolute;
     margin: 0;
-    left: 30%;
+    left: 69%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -555,7 +555,6 @@ body {
   @media screen and (max-width: 600px) {
     height: 690px;
     top: 3872px;
-
   }
   background-color: rgba(29, 30, 31, 1);
   top: 0px;
@@ -572,7 +571,6 @@ body {
     width: 100%;
     top: 42px;
     left: 3%;
-
   }
   background-color: rgba(255, 255, 255, 0);
   top: 72px;
@@ -644,7 +642,7 @@ body {
     max-height: 340px;
   }
   background-color: rgba(255, 255, 255, 0);
-  top: 315px;
+  top: 303px;
   height: 547px;
   width: 100%;
   position: absolute;
@@ -663,10 +661,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 0px;
     height: 547px;
-    width: 100%;
+    width: 30%;
     position: absolute;
     margin: 0;
-    left: 0%;
+    left: 35%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -736,36 +734,18 @@ body {
   transform: rotate(0deg);
 }
 .people_like_first {
-  @media screen and (max-width: 600px) {
-    top: 748px;
-    width: 80%;
-  }
-  background-color: rgba(255, 255, 255, 0);
+  background: #ffffff;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
   top: 678px;
   height: 257px;
-  width: 100%;
+  width: 25%;
   position: absolute;
   margin: 0;
-  left: 10%;
+  left: 5%;
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  .background_image {
-    @media screen and (max-width: 600px) {
-      width: 80%;
-    }
-    background-color: rgba(255, 255, 255, 0);
-    top: 0px;
-    height: 257px;
-    width: 100%;
-    position: absolute;
-    width: 100%;
-    margin: 0;
-    right: 40%;
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+
   .salonname {
     background-color: rgba(255, 255, 255, 0);
     top: 184px;
@@ -773,7 +753,7 @@ body {
     width: auto;
     position: absolute;
     margin: 0;
-    left: 8%;
+    left: 30%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -791,7 +771,7 @@ body {
     width: auto;
     position: absolute;
     margin: 0;
-    left: 8%;
+    left: 30%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -809,7 +789,7 @@ body {
     width: 32px;
     position: absolute;
     margin: 0;
-    left: 5%;
+    left: 15%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -818,10 +798,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 45px;
     height: auto;
-    width: 245px;
+    width: auto;
     position: absolute;
     margin: 0;
-    left: 2%;
+    left: 10%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -838,28 +818,18 @@ body {
     width: 80%;
     top: 778px;
   }
-  background-color: rgba(255, 255, 255, 0);
+  background: #ffffff;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
   top: 678px;
   height: 257px;
-  width: 100%;
+  width: 25%;
   position: absolute;
   margin: 0;
-  left: 40%;
+  left: 38%;
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  .background_image {
-    background-color: rgba(255, 255, 255, 0);
-    top: 0px;
-    height: 257px;
-    width: 100%;
-    position: absolute;
-    margin: 0;
-    right: 40%;
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+
   .salonname {
     background-color: rgba(255, 255, 255, 0);
     top: 184px;
@@ -867,7 +837,7 @@ body {
     width: auto;
     position: absolute;
     margin: 0;
-    left: 8%;
+    left: 30%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -885,7 +855,7 @@ body {
     width: auto;
     position: absolute;
     margin: 0;
-    left: 8%;
+    left: 30%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -903,7 +873,7 @@ body {
     width: 32px;
     position: absolute;
     margin: 0;
-    left: 5%;
+    left: 15%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -912,10 +882,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 45px;
     height: auto;
-    width: 245px;
+    width: auto;
     position: absolute;
     margin: 0;
-    left: 2%;
+    left: 10%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -928,33 +898,17 @@ body {
   }
 }
 .people_like_third {
-  @media screen and (max-width: 600px) {
-    width: 80%;
-    top: 778px;
-  }
-  background-color: rgba(255, 255, 255, 0);
+  background: #ffffff;
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
   top: 678px;
   height: 257px;
-  width: 100%;
+  width: 25%;
   position: absolute;
   margin: 0;
-  left: 70%;
+  left: 71%;
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
-  .background_image {
-    background-color: rgba(255, 255, 255, 0);
-    top: 0px;
-    height: 257px;
-    width: 100%;
-    position: absolute;
-    width: 100%;
-    margin: 0;
-    right: 40%;
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
   .salonname {
     background-color: rgba(255, 255, 255, 0);
     top: 184px;
@@ -962,7 +916,7 @@ body {
     width: auto;
     position: absolute;
     margin: 0;
-    left: 8%;
+    left: 20%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -980,7 +934,7 @@ body {
     width: auto;
     position: absolute;
     margin: 0;
-    left: 8%;
+    left: 20%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -1007,10 +961,10 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 45px;
     height: auto;
-    width: 245px;
+    width: auto;
     position: absolute;
     margin: 0;
-    left: 2%;
+    left: 10%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -1277,15 +1231,14 @@ body {
     line-height: 12px;
   }
   .icons {
-
     .facebookicon {
       background-color: rgba(255, 255, 255, 0);
       top: 95px;
       height: 24px;
-      width: 100%;
-      left: 9%;
+      width: 2%;
+      left: 58%;
       position: absolute;
-      margin-left: 20px;
+      margin-left:15px;
       -ms-transform: rotate(0deg);
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
@@ -1294,10 +1247,10 @@ body {
       background-color: rgba(255, 255, 255, 0);
       top: 95px;
       height: 24px;
-      width: 100%;
-      left: 12%;
+      width: 2%;
+      left: 60.5%;
       position: absolute;
-      margin-left: 20px;
+      margin-left: 15px;
       -ms-transform: rotate(0deg);
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
@@ -1306,10 +1259,10 @@ body {
       background-color: rgba(255, 255, 255, 0);
       top: 95px;
       height: 24px;
-      width: 100%;
-      left: 15%;
+      width: 2%;
+      left: 63%;
       position: absolute;
-      margin-left: 20px;
+      margin-left: 15px;
       -ms-transform: rotate(0deg);
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
