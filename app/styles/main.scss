@@ -95,7 +95,7 @@ body {
     transform: rotate(0deg);
   }
   .attirez_fidelisez {
-    top: 135px;
+    top: 175px;
     height: auto;
     background-color: rgba(255, 255, 255, 0);
     position: relative;
@@ -121,7 +121,7 @@ body {
   }
   .ca_vous_tente {
     background-color: rgba(255, 255, 255, 0);
-    top: 316px;
+    top: 266px;
     height: auto;
     width: auto;
     position: absolute;
@@ -137,8 +137,6 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
-    font-size: 56px;
     color: rgba(255, 255, 255, 1);
     text-align: left;
     letter-spacing: -1.73px;
@@ -155,7 +153,7 @@ body {
       top: 460px;
     }
     background-color: rgba(255, 255, 255, 0);
-    top: 436px;
+    top: 380px;
     height: 55px;
     width: 30%;
     position: absolute;
@@ -167,8 +165,8 @@ body {
     .btn_contactez_nous {
       border-style: dotted;
       border-color: rgba(131, 110, 57, 1);
-      border-radius: 18px;
-      border-width: 1px;
+      border-radius: 40px;
+      border-width: 1.5px;
       background-color: rgba(255, 255, 255, 0);
       top: 0px;
       height: 54px;
@@ -199,7 +197,6 @@ body {
         -ms-transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-        font-family: "Helvetica", Helvetica, Arial, serif;
         font-size: 18px;
         color: rgba(255, 255, 255, 1);
         text-align: center;
@@ -211,6 +208,8 @@ body {
         color: #ffffff;
         letter-spacing: 0.07px;
         text-align: center;
+
+        
       }
     }
   }
@@ -265,6 +264,10 @@ body {
     font-size: 20px;
     color: #343434;
     letter-spacing: 0.08px;
+    .elmabook_black{
+      font-weight: 700;
+      font-style: normal;
+    }
   }
   .man_board {
     @media screen and (max-width: 600px) {
@@ -274,11 +277,11 @@ body {
     }
     background-color: rgba(255, 255, 255, 0);
     top: 852px;
-    height: 291px;
+    height: 8%;
     width: 30%;
     position: absolute;
     margin: 0;
-    left: 55%;
+    left: 45%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -309,10 +312,14 @@ body {
     background-color: rgba(255, 255, 255, 0);
     top: 1392px;
     height: 212px;
-    width: 23%;
+    background: transparent no-repeat center;
+    background-size: cover;
+    width: 300px;
+    max-height: 100%;
+    max-width: 100%;
     position: absolute;
     margin: 0;
-    right: 53%;
+    right: 55%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -353,10 +360,11 @@ body {
     }
     background-color: rgba(255, 255, 255, 0);
     top: 1679px;
-    height: auto;
+    height: 87px;
     position: absolute;
     margin: 0;
-    width: 30%;
+    width: 380px;
+
     right: 50%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -379,9 +387,11 @@ body {
       top: 2420px;
     }
     background-color: rgba(255, 255, 255, 0);
-    top: 1677px;
+    top: 1679px;
     height: 190px;
-    width: 18%;
+    width: 241px;
+    max-height: 100%;
+    max-width: 100%;
     position: absolute;
     margin: 0;
     left: 59%;
@@ -1168,12 +1178,11 @@ body {
     letter-spacing: 0.08px;
     line-height: 29px;
 
-
     font-family: Heebo-Light;
-font-size: 20px;
-color: #F0F1F6;
-letter-spacing: 0.08px;
-text-align: center;
+    font-size: 20px;
+    color: #f0f1f6;
+    letter-spacing: 0.08px;
+    text-align: center;
   }
   .form {
     ::placeholder {
@@ -1251,7 +1260,6 @@ text-align: center;
         font-size: 10px;
         color: #ffffff;
         letter-spacing: 2px;
-
       }
     }
   }
