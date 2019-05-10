@@ -12,6 +12,9 @@ body {
   margin: 0;
 }
 .propage {
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    min-height: 5270px;
+  }
   width: 100%;
   height: 100vh;
   min-height: 4511px;
@@ -24,6 +27,10 @@ body {
 }
 
 .navbar {
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 0px;
+    height: 60px;
+  }
   width: 100%;
   margin: 0 auto;
   background-color: rgba(255, 255, 255, 1);
@@ -35,6 +42,9 @@ body {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   .logo {
+    @media screen and (max-width: 600px) {
+      height: 20px;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 23px;
     height: 25px;
@@ -74,6 +84,9 @@ body {
   }
 }
 .elma_pro_hero {
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 60px;
+  }
   background-color: rgba(255, 255, 255, 0);
   top: 70px;
   height: 600px;
@@ -83,6 +96,20 @@ body {
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
+  .elma_pro_hero_no_mobile {
+    visibility: visible;
+
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      visibility: hidden;
+    }
+  }
+  .elma_pro_hero_mobile {
+    visibility: hidden;
+
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      visibility: visible;
+    }
+  }
   .elma_pro_hero_img {
     background-color: rgba(255, 255, 255, 0);
     top: 0px;
@@ -95,6 +122,13 @@ body {
     transform: rotate(0deg);
   }
   .attirez_fidelisez {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 308px;
+      width: 80%;
+      font-size: 17px;
+      letter-spacing: 0.06px;
+      text-align: center;
+    }
     top: 140px;
     height: auto;
     background-color: rgba(255, 255, 255, 0);
@@ -114,12 +148,14 @@ body {
     font-size: 20px;
     color: #f4f5f9;
     letter-spacing: 0.08px;
-
-    @media screen and (max-width: 600px) {
-      width: 45%;
-    }
   }
   .ca_vous_tente {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 428px;
+      font-size: 42.2px;
+      letter-spacing: -1.31px;
+      left: 15%;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 246px;
     height: auto;
@@ -127,13 +163,6 @@ body {
     position: absolute;
     margin: 0;
     left: 10%;
-    @media screen and (max-width: 600px) {
-      width: 22%;
-      top: 400px;
-      line-height: 40px;
-      font-size: 30px;
-      letter-spacing: -3px;
-    }
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
@@ -141,20 +170,19 @@ body {
     text-align: left;
     letter-spacing: -1.73px;
     line-height: 67px;
-
     font-family: PlayfairDisplay-Bold;
     font-size: 56px;
     color: #ffffff;
     letter-spacing: -1.73px;
   }
   .cta {
-    @media screen and (max-width: 600px) {
-      left: 25%;
-      top: 460px;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      left: 10%;
+      top: 509px;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 360px;
-    height: 55px;
+    height: 55rpx;
     width: 30%;
     position: absolute;
     margin: 0;
@@ -163,6 +191,10 @@ body {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     .btn_contactez_nous {
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        width: 258px;
+        left: 10%;
+      }
       border-style: dotted;
       border-color: rgba(131, 110, 57, 1);
       border-radius: 40px;
@@ -171,10 +203,6 @@ body {
       top: 0px;
       height: 54px;
       width: 300px;
-      @media screen and (max-width: 600px) {
-        width: 180px;
-        left: 70%;
-      }
       position: absolute;
       margin: 0;
       left: 0px;
@@ -182,11 +210,13 @@ body {
       -webkit-transform: rotate(0deg);
       transform: rotate(0deg);
       .text_contacteznous {
-        @media screen and (max-width: 600px) {
-          left: 10%;
-          font-size: 16px;
+        @media screen and (min-width: 0px) and (max-width: 600px) {
+          left: 20%;
+          font-size: 18px;
+          color: #ffffff;
+          letter-spacing: 0.07px;
+          text-align: center;
         }
-
         background-color: rgba(255, 255, 255, 0);
         top: 14px;
         height: auto;
@@ -208,17 +238,17 @@ body {
         color: #ffffff;
         letter-spacing: 0.07px;
         text-align: center;
-
-        
       }
     }
   }
 }
 .dev_text {
   .commentnouspouvons {
-    @media screen and (max-width: 600px) {
-      top: 704px;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 961px;
       width: 95%;
+      font-size: 20px;
+      letter-spacing: 0;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 794px;
@@ -230,7 +260,6 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
-    font-family: "Helvetica", Helvetica, Arial, serif;
     font-size: 32px;
     color: rgba(29, 30, 31, 1);
     text-align: left;
@@ -242,8 +271,12 @@ body {
     letter-spacing: 0;
   }
   .elmadealestunepla {
-    @media screen and (max-width: 600px) {
-      top: 861px;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 1050px;
+      width: 85%;
+      font-size: 16px;
+      letter-spacing: 0.06px;
+      text-align: justify;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 901px;
@@ -264,16 +297,16 @@ body {
     font-size: 20px;
     color: #343434;
     letter-spacing: 0.08px;
-    .elmabook_black{
+    .elmabook_black {
       font-weight: 700;
       font-style: normal;
     }
   }
   .man_board {
-    @media screen and (max-width: 600px) {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
       width: 70%;
-      top: 1002px;
-      left: 40%;
+      top: 659px;
+      left: 15%;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 852px;
@@ -289,9 +322,8 @@ body {
 }
 .gagnez_client_section {
   .bg_contour {
-    @media screen and (max-width: 600px) {
-      top: 1891px;
-      height: 1853px;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 1378px;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 1291px;
@@ -304,8 +336,8 @@ body {
     transform: rotate(0deg);
   }
   .gagnez_clients {
-    @media screen and (max-width: 600px) {
-      top: 1991px;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 1378px;
       left: 30%;
       width: 50%;
     }
@@ -325,10 +357,10 @@ body {
     transform: rotate(0deg);
   }
   .text_gagnezclients {
-    @media screen and (max-width: 600px) {
-      top: 2180px;
-      left: 30%;
-      width: 50%;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 1558px;
+      left: 15%;
+      width: 80%;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 1636px;
@@ -353,10 +385,13 @@ body {
     text-align: center;
   }
   .accedez_a_desmilliers {
-    @media screen and (max-width: 600px) {
-      top: 2240px;
-      left: 30%;
-      width: 50%;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 1600px;
+      left: 10%;
+      width: 85%;
+      font-size: 18px;
+      letter-spacing: 0.07px;
+      text-align: center;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 1679px;
@@ -364,7 +399,6 @@ body {
     position: absolute;
     margin: 0;
     width: 380px;
-
     right: 53%;
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -381,10 +415,10 @@ body {
     text-align: center;
   }
   .calendar {
-    @media screen and (max-width: 600px) {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
       left: 30%;
       width: 50%;
-      top: 2420px;
+      top: 1700px;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 1679px;
@@ -400,9 +434,13 @@ body {
     transform: rotate(0deg);
   }
   .remplissezvotrecal {
-    @media screen and (max-width: 600px) {
-      left: 10%;
-      top: 2600px;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      left: 15%;
+      top: 1880px;
+      width: 85%;
+      font-size: 18px;
+      letter-spacing: 0.07px;
+      text-align: center;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 1899px;
@@ -427,10 +465,13 @@ body {
     text-align: center;
   }
   .reservations_text {
-    @media screen and (max-width: 600px) {
-      left: 30%;
-      top: 2634px;
-      width: 50%;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      left: 10%;
+      top: 1935px;
+      width: 90%;
+      font-size: 18px;
+      letter-spacing: 0.07px;
+      text-align: center;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 1942px;
@@ -455,10 +496,11 @@ body {
     text-align: center;
   }
   .augmentez_revenus {
-    @media screen and (max-width: 600px) {
-      top: 2840px;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 2080px;
       left: 30%;
       width: 50%;
+      height: 137px;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 1926px;
@@ -472,10 +514,13 @@ body {
     transform: rotate(0deg);
   }
   .text_augmentez_revenus {
-    @media screen and (max-width: 600px) {
-      top: 3020px;
-      left: 30%;
-      width: 50%;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 2250px;
+      left: 5%;
+      width: 100%;
+      font-size: 20px;
+      letter-spacing: 0.08px;
+      text-align: center;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 2170px;
@@ -501,10 +546,13 @@ body {
     text-align: center;
   }
   .dev_visibilite {
-    @media screen and (max-width: 600px) {
-      top: 3080px;
-      left: 30%;
-      width: 50%;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 2280px;
+      left: 10%;
+      width: 88%;
+      font-size: 18px;
+      letter-spacing: 0.07px;
+      text-align: center;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 2213px;
@@ -529,10 +577,11 @@ body {
     text-align: center;
   }
   .op_quotid {
-    @media screen and (max-width: 600px) {
-      top: 3150px;
-      left: 30%;
-      width: 50%;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 2355px;
+      left: 20%;
+      width: 60%;
+      height: 135.85px;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 2177px;
@@ -547,10 +596,13 @@ body {
   }
 
   .gerer_reservations {
-    @media screen and (max-width: 600px) {
-      top: 3320px;
-      left: 30%;
-      width: 50%;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 2520px;
+      left: 5%;
+      width: 100%;
+      font-size: 20px;
+      letter-spacing: 0.08px;
+      text-align: center;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 2408px;
@@ -575,10 +627,13 @@ body {
     text-align: center;
   }
   .reservations_text_copy {
-    @media screen and (max-width: 600px) {
-      top: 3415px;
-      left: 30%;
-      width: 50%;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      left: 10%;
+      top: 2560px;
+      width: 90%;
+      font-size: 18px;
+      letter-spacing: 0.07px;
+      text-align: center;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 2451px;
@@ -617,8 +672,8 @@ body {
   }
 }
 .black_section {
-  @media screen and (max-width: 600px) {
-    top: 3680px;
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 2800px;
     width: 100%;
     height: 1070px;
   }
@@ -633,9 +688,8 @@ body {
   transform: rotate(0deg);
 }
 .rectangle {
-  @media screen and (max-width: 600px) {
-    height: 690px;
-    top: 3872px;
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    height: 695px;
   }
   background-color: rgba(29, 30, 31, 1);
   top: 0px;
@@ -648,10 +702,14 @@ body {
   transform: rotate(0deg);
 }
 .votrelogicieldege {
-  @media screen and (max-width: 600px) {
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 72px;
     width: 100%;
-    top: 42px;
-    left: 3%;
+    height: 1070px;
+    font-size: 20px;
+    color: #f0f1f6;
+    letter-spacing: 0;
+    text-align: center;
   }
   background-color: rgba(255, 255, 255, 0);
   top: 72px;
@@ -674,15 +732,18 @@ body {
   text-align: center;
 }
 .elmabook_text {
-  @media screen and (max-width: 600px) {
-    width: 80%;
-    top: 130px;
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    width: 92%;
+    top: 127px;
+    left: 5%;
+
+    font-family: Heebo-Bold;
+    font-size: 20px;
+    color: #f0f1f6;
+    letter-spacing: 0.08px;
+    text-align: center;
   }
   .span1 {
-    @media screen and (max-width: 600px) {
-      font-size: 18px;
-      line-height: 25px;
-    }
     width: 50%;
     font-family: Heebo-Bold;
     font-weight: 700;
@@ -694,18 +755,11 @@ body {
     line-height: 29px;
   }
   .span2 {
-    @media screen and (max-width: 600px) {
-      top: 150px;
-      font-size: 15px;
-      line-height: 25px;
-      width: 100%;
-    }
     width: auto;
     font-family: "Heebo", Helvetica, Arial, serif;
     font-weight: 300;
     font-style: normal;
   }
-
   background-color: rgba(255, 255, 255, 0);
   top: 147px;
   height: auto;
@@ -713,7 +767,6 @@ body {
   margin: 0;
   left: 0%;
   width: 100%;
-
   -ms-transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
@@ -722,7 +775,6 @@ body {
   text-align: center;
   letter-spacing: 0.08px;
   line-height: 24px;
-
   font-family: Heebo-Bold;
   font-size: 20px;
   color: #f0f1f6;
@@ -730,9 +782,8 @@ body {
   text-align: center;
 }
 .iphonemockup {
-  @media screen and (max-width: 600px) {
-    top: 350px;
-    max-height: 340px;
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 401px;
   }
   background-color: rgba(255, 255, 255, 0);
   top: 303px;
@@ -748,8 +799,11 @@ body {
   overflow: hidden;
 
   .iphonemockup1 {
-    @media screen and (max-width: 600px) {
-      top: 10px;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      width: 75%;
+      left: 15%;
+      top: 35px;
+      height: 547px;
     }
     background-color: rgba(255, 255, 255, 0);
     top: 0px;
@@ -764,9 +818,6 @@ body {
   }
 }
 .logo_in_iphone {
-  @media screen and (max-width: 600px) {
-    top: 70px;
-  }
   background-color: rgba(255, 255, 255, 0);
   top: 60px;
   height: 15px;
@@ -779,9 +830,6 @@ body {
   transform: rotate(0deg);
 }
 .calendar_iphone {
-  @media screen and (max-width: 600px) {
-    top: 70px;
-  }
   top: 100px;
   background-color: rgba(255, 255, 255, 0);
   height: 180px;
@@ -795,9 +843,6 @@ body {
   opacity: 0.1;
 }
 .calendar_iphone_copy {
-  @media screen and (max-width: 600px) {
-    top: 70px;
-  }
   background-color: rgba(255, 255, 255, 0);
   top: 100px;
   height: 180px;
@@ -811,9 +856,7 @@ body {
   opacity: 0.31;
 }
 .people_like {
-  @media screen and (max-width: 600px) {
-    top: 3353px;
-    width: 80%;
+  @media screen and (min-width: 0px) and (max-width: 600px) {
   }
   background-color: rgba(240, 241, 246, 1);
   top: 2853px;
@@ -827,6 +870,11 @@ body {
   transform: rotate(0deg);
 }
 .people_like_first {
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 760px;
+    width: 90%;
+    left: 5%;
+  }
   background: #ffffff;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
   top: 678px;
@@ -923,9 +971,10 @@ body {
   }
 }
 .people_like_second {
-  @media screen and (max-width: 600px) {
-    width: 80%;
-    top: 778px;
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 1035px;
+    width: 90%;
+    left: 5%;
   }
   background: #ffffff;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
@@ -1023,6 +1072,11 @@ body {
   }
 }
 .people_like_third {
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 1308px;
+    width: 90%;
+    left: 5%;
+  }
   background: #ffffff;
   box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.05);
   top: 678px;
@@ -1118,6 +1172,9 @@ body {
   }
 }
 .contactez_nous_section {
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 4420px;
+  }
   background-color: rgba(24, 24, 24, 1);
   top: 3650px;
   height: 688px;
@@ -1129,6 +1186,9 @@ body {
   -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
   transform: rotate(0deg);
   .contacteznouset {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 50px;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 110px;
     height: auto;
@@ -1153,13 +1213,32 @@ body {
     text-align: center;
     .span1 {
       line-height: 56px;
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        font-size: 32px;
+        letter-spacing: 0;
+        text-align: center;
+      }
     }
     .span2 {
       font-size: 32px;
       line-height: 43px;
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        font-size: 18px;
+        color: #f4f5f9;
+        letter-spacing: 0;
+        text-align: center;
+      }
     }
   }
   .quelquesoitlobje {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      font-size: 16px;
+      letter-spacing: 0.06px;
+      text-align: center;
+      top: 160px;
+      width: 96%;
+      left: 2%;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 225px;
     height: auto;
@@ -1185,6 +1264,9 @@ body {
     text-align: center;
   }
   .form {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 307px;
+    }
     ::placeholder {
       font-family: Lato-Bold;
       font-size: 14px;
@@ -1204,6 +1286,11 @@ body {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     .input_nom_prenom {
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        width: 360%;
+        max-width: 332px;
+        left: -42%;
+      }
       background-color: rgba(247, 247, 247, 1);
       top: 0px;
       height: 45px;
@@ -1217,6 +1304,12 @@ body {
       transform: rotate(0deg);
     }
     .input_nom_salon {
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        width: 360%;
+        max-width: 332px;
+        left: -42%;
+        top: 70px;
+      }
       background-color: rgba(247, 247, 247, 1);
       top: 80px;
       height: 45px;
@@ -1230,6 +1323,12 @@ body {
       transform: rotate(0deg);
     }
     .input_num_telephone {
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        width: 360%;
+        max-width: 332px;
+        left: -42%;
+        top: 140px;
+      }
       background-color: rgba(247, 247, 247, 1);
       top: 160px;
       height: 45px;
@@ -1243,6 +1342,12 @@ body {
       transform: rotate(0deg);
     }
     .button_envoyer {
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        width: 360%;
+        max-width: 332px;
+        left: -42%;
+        top: 215px;
+      }
       background-color: rgba(158, 126, 68, 1);
       top: 230px;
       height: 36px;
@@ -1265,6 +1370,10 @@ body {
   }
 }
 .section_footer {
+  @media screen and (min-width: 0px) and (max-width: 600px) {
+    top: 5050px;
+    height: 210px;
+  }
   background-color: rgba(255, 255, 255, 1);
   top: 4340px;
   height: 189px;
@@ -1276,6 +1385,9 @@ body {
   -webkit-transform: rotate(0deg);
   transform: rotate(0deg);
   .logo_footer {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      visibility: hidden;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 40px;
     height: 25px;
@@ -1287,6 +1399,9 @@ body {
     transform: rotate(0deg);
   }
   .product {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      visibility: hidden;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 40px;
     height: auto;
@@ -1307,6 +1422,9 @@ body {
     line-height: 12px;
   }
   .quisommesnous {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      visibility: hidden;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 65px;
     height: auto;
@@ -1325,6 +1443,9 @@ body {
     line-height: 21px;
   }
   .contact {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      visibility: hidden;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 40px;
     height: auto;
@@ -1345,6 +1466,9 @@ body {
     line-height: 12px;
   }
   .contacteznousfaq {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      visibility: hidden;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 65px;
     height: auto;
@@ -1363,6 +1487,10 @@ body {
     line-height: 21px;
   }
   .followus {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      top: 120px;
+      left: 40%;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 40px;
     height: auto;
@@ -1384,6 +1512,11 @@ body {
   }
   .icons {
     .facebookicon {
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        top: 140px;
+        left: 30%;
+        width: 24px;
+      }
       background-color: rgba(255, 255, 255, 0);
       top: 65px;
       height: 24px;
@@ -1396,6 +1529,11 @@ body {
       transform: rotate(0deg);
     }
     .twittericon {
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        top: 140px;
+        left: 40%;
+        width: 24px;
+      }
       background-color: rgba(255, 255, 255, 0);
       top: 65px;
       height: 24px;
@@ -1408,6 +1546,11 @@ body {
       transform: rotate(0deg);
     }
     .dribbbleicon {
+      @media screen and (min-width: 0px) and (max-width: 600px) {
+        top: 140px;
+        left: 50%;
+        width: 24px;
+      }
       background-color: rgba(255, 255, 255, 0);
       top: 65px;
       height: 24px;
@@ -1421,6 +1564,9 @@ body {
     }
   }
   .subscribe {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      left: 40%;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 40px;
     height: auto;
@@ -1441,6 +1587,10 @@ body {
     line-height: 12px;
   }
   .input_email {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      left: 17%;
+      width: 65%;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 65px;
     height: 36px;
@@ -1465,6 +1615,9 @@ body {
     }
   }
   .rightarrow {
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      left: 76%;
+    }
     background-color: rgba(255, 255, 255, 0);
     top: 80px;
     height: 12px;
@@ -1475,6 +1628,28 @@ body {
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
+  }
+  .copyright_elmadeal {
+    visibility: hidden;
+    @media screen and (min-width: 0px) and (max-width: 600px) {
+      visibility: visible;
+
+      font-family: Lato-Black;
+      font-size: 10px;
+      color: #999999;
+      letter-spacing: 1px;
+      text-align: left;
+      background-color: rgba(255, 255, 255, 0);
+      top: 180px;
+      height: auto;
+      width: auto;
+      position: absolute;
+      margin: 0;
+      left: 136px;
+      -ms-transform: rotate(0deg); /* IE 9 */
+      -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+      transform: rotate(0deg);
+    }
   }
 }
 .hero-unit {
